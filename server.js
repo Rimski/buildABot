@@ -4,7 +4,7 @@ var port = process.env.port || 8800;
 var path = require("path");
 var cors = require("cors");
 app.use(cors());
-app.use(express.static(path.join(__dirname, "..", "Build-A-Bot")))
+app.use(express.static(path.join(__dirname, "..", "buildABot")))
 
 app.listen(port, function() {
     console.log("Server running on " + port);
