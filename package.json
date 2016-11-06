@@ -1,0 +1,24 @@
+{
+  "name": "buildabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rimski/buildABot.git"
+  },
+  "author": "Tanner S.R. Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rimski/buildABot/issues"
+  },
+  "homepage": "https://github.com/Rimski/buildABot#readme",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  }
+}
